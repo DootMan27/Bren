@@ -64,11 +64,11 @@ public class ItemReg {
             .shootSound(SoundReg.ITEM_RIFLE_SHOOT, SoundReg.ITEM_RIFLE_SHOOT_SILENCED)));
 
     public static final Item SHOTGUN = registerItem("shotgun", new ShotgunItem(
-            new FabricItemSettings(), ToolMaterials.IRON, new GunProperties().rangedDamage(SHOTGUN_DAMAGE).fireRate(20).recoil(SHOTGUN_RECOIL).bulletSpeed(1.8F)
+            new FabricItemSettings(), ToolMaterials.IRON, new GunProperties().rangedDamage(SHOTGUN_DAMAGE).fireRate(20).recoil(SHOTGUN_RECOIL).bulletSpeed(2.0F)
             .shootSound(SoundReg.ITEM_SHOTGUN_SHOOT, null)));
 
     public static final Item NETHERITE_SHOTGUN = registerItem("netherite_shotgun", new ShotgunItem(
-            new FabricItemSettings().fireproof(), ToolMaterials.NETHERITE, new GunProperties().rangedDamage(N_SHOTGUN_DAMAGE).fireRate(20).recoil(SHOTGUN_RECOIL).bulletSpeed(1.5F)
+            new FabricItemSettings().fireproof(), ToolMaterials.NETHERITE, new GunProperties().rangedDamage(N_SHOTGUN_DAMAGE).fireRate(20).recoil(SHOTGUN_RECOIL).bulletSpeed(2.0F)
             .shootSound(SoundReg.ITEM_SHOTGUN_SHOOT, null)));
 
     public static final Item REVOLVER = registerItem("revolver", new RevolverItem(

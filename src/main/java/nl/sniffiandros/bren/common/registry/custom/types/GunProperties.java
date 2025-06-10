@@ -7,7 +7,7 @@ public class GunProperties {
     float recoil;
     float rangedDamage;
     int fireRate;
-    float speed = 3.5F;
+    float speed = 4.0F;
     SoundEvent sound;
     SoundEvent silentSound;
 
